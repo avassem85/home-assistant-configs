@@ -1,0 +1,83 @@
+homeassistant:
+  name: Thuis
+  latitude: !secret HOME_LATITUDE
+  longitude: !secret HOME_LONGITUDE
+  elevation: !secret HOME_ELAVATION
+  unit_system: metric
+  time_zone: Europe/Amsterdam
+  customize: !include_dir_merge_named customizations
+
+http:
+  api_password: !secret HTTP_PASSWORD
+
+##############
+# COMPONENTS #
+##############
+
+# Philips Hue #
+light:
+  - platform: hue
+    host: 192.168.178.22
+    allow_unreachable: true
+
+# Google Nest  #
+climate:
+  platform: nest
+
+nest:
+  username: !secret NEST_USERNAME
+  password: !secret NEST_PASSWORD
+
+# Sonos #
+media_player:
+  platform: sonos
+
+# Zwave.Me #
+# zwave:
+#   usb_path: /dev/ttyACM0
+
+# MQTT #
+mqtt:
+  broker: m20.cloudmqtt.com
+  port: 10470
+  client_id: home-assistant
+  username: !secret CLOUDMQTT_USERNAME
+  password: !secret CLOUDMQTT_PASSWORD
+
+# mqtt:
+#   broker: 127.0.0.1
+#   port: 1883
+#   client_id: home-assistant-1
+#   username: !secret MOSQUITTO_USERNAME
+#   password: !secret MOSQUITTO_PASSWORD
+
+group: !include_dir_named groups
+zone: !include zones.yaml
+device_tracker: !include device_trackers.yaml
+
+##########
+# EXTRAS #
+##########
+# logger:
+#   default: error
+#   logs:
+#     homeassistant: error
+#     homeassistant.core: error
+#     homeassistant.components.api: error
+#     homeassistant.components.recorder: error
+#     homeassistant.components.device_tracker.nmap_tracker: error
+#     homeassistant.components.statsd: error
+#     homeassistant.components.mqtt: error
+#     homeassistant.components.sensor.command_line: error
+#     homeassistant.components.sensor.google_travel_time: error
+
+logger:
+history:
+discovery:
+sun:
+conversation:
+logbook:
+frontend:
+recorder:
+  purge_days: 1
+updater:

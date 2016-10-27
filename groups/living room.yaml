@@ -1,0 +1,3 @@
+view: yes
+entities:
+  - media_player.sonos_woonkamer

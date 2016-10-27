@@ -1,0 +1,17 @@
+- name: Thuis
+  latitude: !secret HOME_LATITUDE
+  longitude: !secret HOME_LONGITUDE
+  radius: 200
+  icon: mdi:home
+
+- name: Werk Alex
+  latitude: 52.04126
+  longitude: 5.53524
+  radius: 200
+  icon: mdi:briefcase
+
+- name: Werk Anita
+  latitude: 52.06287
+  longitude: 5.20538
+  radius: 200
+  icon: mdi:briefcase
