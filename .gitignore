@@ -1,8 +1,8 @@
 node_modules/
+deps/
 .HA_VERSION
 .uuid
 OZW_Log.txt
-deps/
 *.log
 *.db
 *.db-journal
