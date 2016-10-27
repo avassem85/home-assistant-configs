@@ -1,0 +1,88 @@
+# Everspring AN158 Plug-in Meter Appliance Module Energy - Washok (Ongebruikt)
+
+sensor.everspring_an158_plugin_meter_appliance_module_energy_8_0:
+  friendly_name: Washok - Wasmachine - kWh Meter
+
+sensor.everspring_an158_plugin_meter_appliance_module_power_8_8:
+  friendly_name: Washok - Wasmachine - Verbruik
+
+switch.everspring_an158_plugin_meter_appliance_module_switch_8_0:
+  friendly_name: Washok - Wasmachine
+
+# FIBARO System FGWPE Wall Plug - Woonkamer - Stolplamp
+
+switch.fibaro_system_fgwpe_wall_plug_switch_4_0:
+  friendly_name: Woonkamer - Stolplamp
+
+sensor.fibaro_system_fgwpe_wall_plug_energy_4_0:
+  friendly_name: Woonkamer - Stolplamp - kWh Meter
+
+sensor.fibaro_system_fgwpe_wall_plug_power_4_4:
+  friendly_name: Woonkamer - Stolplamp - Verbruik
+
+
+# GreenWave PowerNode 6 - Woonkamer - Port 1
+
+sensor.greenwave_powernode_6_port_energy_6_0:
+  friendly_name: Woonkamer - PowerNode - DVD - kWh Meter
+
+sensor.greenwave_powernode_6_port_power_6_8:
+  friendly_name: Woonkamer - PowerNode - DVD - Verbruik
+
+switch.greenwave_powernode_6_port_switch_6_0:
+  friendly_name: Woonkamer - PowerNode - DVD
+
+# GreenWave PowerNode 6 - Woonkamer - Port 2
+
+sensor.greenwave_powernode_6_port_energy_6_0_2:
+  friendly_name: Woonkamer - PowerNode - Steamlink - kWh Meter
+
+sensor.greenwave_powernode_6_port_power_6_8_2:
+  friendly_name: Woonkamer - PowerNode - Steamlink - Verbruik
+
+switch.greenwave_powernode_6_port_switch_6_0_2:
+  friendly_name: Woonkamer - PowerNode - Steamlink
+
+# GreenWave PowerNode 6 - Woonkamer - Port 3
+
+sensor.greenwave_powernode_6_port_energy_6_0_3:
+  friendly_name: Woonkamer - PowerNode - Switch - kWh Meter
+
+sensor.greenwave_powernode_6_port_power_6_8_3:
+  friendly_name: Woonkamer - PowerNode - Switch - Verbruik
+
+switch.greenwave_powernode_6_port_switch_6_0_3:
+  friendly_name: Woonkamer - PowerNode - Switch
+
+# GreenWave PowerNode 6 - Woonkamer - Port 4
+
+sensor.greenwave_powernode_6_port_energy_6_0_4:
+  friendly_name: Woonkamer - PowerNode - Apple TV - kWh Meter
+
+sensor.greenwave_powernode_6_port_power_6_8_4:
+  friendly_name: Woonkamer - PowerNode - Apple TV - Verbruik
+
+switch.greenwave_powernode_6_port_switch_6_0_4:
+  friendly_name: Woonkamer - PowerNode - Apple TV
+
+# GreenWave PowerNode 6 - Woonkamer - Port 5
+
+sensor.greenwave_powernode_6_port_energy_6_0_5:
+  friendly_name: Woonkamer - PowerNode - TV - kWh Meter
+
+sensor.greenwave_powernode_6_port_power_6_8_5:
+  friendly_name: Woonkamer - PowerNode - TV - Verbruik
+
+switch.greenwave_powernode_6_port_switch_6_0_5:
+  friendly_name: Woonkamer - PowerNode - TV
+
+# GreenWave PowerNode 6 - Woonkamer - Port 6
+
+sensor.greenwave_powernode_6_port_energy_6_0_6:
+  friendly_name: Woonkamer - PowerNode - Hue Bloom - kWh Meter
+
+sensor.greenwave_powernode_6_port_power_6_8_6:
+  friendly_name: Woonkamer - PowerNode - Hue Bloom - Verbruik
+
+switch.greenwave_powernode_6_port_switch_6_0_6:
+  friendly_name: Woonkamer - PowerNode - Hue Bloom

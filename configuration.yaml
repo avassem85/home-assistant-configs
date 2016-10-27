@@ -20,6 +20,7 @@ device_tracker: !include configuration/platforms/device_trackers.yaml
 # Components
 nest: !include configuration/components/nest.yaml
 zwave: !include configuration/components/zwave.yaml
+rfxtrx: !include configuration/components/rfxtrx.yaml
 mqtt: !include configuration/components/cloudmqtt.yaml
 logger:
 history:
@@ -36,3 +37,11 @@ group: !include_dir_named configuration/groups
 
 # Zones
 zone: !include configuration/zones/zones.yaml
+
+sensor:
+  platform: rfxtrx
+  automatic_add: True
+
+switch:
+  platform: rfxtrx
+  automatic_add: True
