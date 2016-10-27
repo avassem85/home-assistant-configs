@@ -4,80 +4,35 @@ homeassistant:
   longitude: !secret HOME_LONGITUDE
   elevation: !secret HOME_ELAVATION
   unit_system: metric
-  time_zone: Europe/Amsterdam
+  time_zone: !secret HOME_TIME_ZONE
   customize: !include_dir_merge_named configuration/customizations
 
+frontend:
 http:
   api_password: !secret HTTP_PASSWORD
 
-##############
-# COMPONENTS #
-##############
+# Platforms
+light: !include configuration/platforms/lights.yaml
+climate: !include configuration/platforms/climate.yaml
+media_player: !include configuration/platforms/media_players.yaml
+device_tracker: !include configuration/platforms/device_trackers.yaml
 
-# Philips Hue #
-light:
-  - platform: hue
-    host: 192.168.178.22
-    allow_unreachable: true
-
-# Google Nest  #
-climate:
-  platform: nest
-
-nest:
-  username: !secret NEST_USERNAME
-  password: !secret NEST_PASSWORD
-
-# Sonos #
-media_player:
-  platform: sonos
-
-# Zwave.Me #
-# zwave:
-#   usb_path: /dev/ttyACM0
-
-# MQTT #
-mqtt:
-  broker: m20.cloudmqtt.com
-  port: 10470
-  client_id: home-assistant
-  username: !secret CLOUDMQTT_USERNAME
-  password: !secret CLOUDMQTT_PASSWORD
-
-# mqtt:
-#   broker: 127.0.0.1
-#   port: 1883
-#   client_id: home-assistant-1
-#   username: !secret MOSQUITTO_USERNAME
-#   password: !secret MOSQUITTO_PASSWORD
-
-group: !include_dir_named configuration/groups
-zone: !include configuration/zones.yaml
-device_tracker: !include configuration/device_trackers.yaml
-
-##########
-# EXTRAS #
-##########
-# logger:
-#   default: error
-#   logs:
-#     homeassistant: error
-#     homeassistant.core: error
-#     homeassistant.components.api: error
-#     homeassistant.components.recorder: error
-#     homeassistant.components.device_tracker.nmap_tracker: error
-#     homeassistant.components.statsd: error
-#     homeassistant.components.mqtt: error
-#     homeassistant.components.sensor.command_line: error
-#     homeassistant.components.sensor.google_travel_time: error
-
+# Components
+nest: !include configuration/components/nest.yaml
+zwave: !include configuration/components/zwave.yaml
+mqtt: !include configuration/components/cloudmqtt.yaml
 logger:
 history:
 discovery:
 sun:
 conversation:
 logbook:
-frontend:
 recorder:
   purge_days: 2
 updater:
+
+# Groups
+group: !include_dir_named configuration/groups
+
+# Zones
+zone: !include configuration/zones/zones.yaml

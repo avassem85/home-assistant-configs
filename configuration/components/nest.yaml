@@ -1,0 +1,2 @@
+username: !secret NEST_USERNAME
+password: !secret NEST_PASSWORD

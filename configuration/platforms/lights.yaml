@@ -1,0 +1,3 @@
+- platform: hue
+  host: !secret HUE_IP
+  allow_unreachable: true

@@ -1,0 +1,5 @@
+broker: !secret CLOUDMQTT_BROKER
+port: !secret CLOUDMQTT_PORT
+client_id: !secret CLOUDMQTT_CLIENTID
+username: !secret CLOUDMQTT_USERNAME
+password: !secret CLOUDMQTT_PASSWORD
