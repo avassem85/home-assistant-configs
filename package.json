@@ -1,0 +1,22 @@
+{
+  "name": "home-assistant-config",
+  "version": "0.0.1",
+  "description": "Configuration for Home Assistant",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-yaml-validate": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avassem85/home-assistant-configs.git"
+  },
+  "author": "Alex van assem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avassem85/home-assistant-configs/issues"
+  },
+  "homepage": "https://github.com/avassem85/home-assistant-configs#readme"
+}
