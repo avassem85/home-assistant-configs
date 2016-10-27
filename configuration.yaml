@@ -79,5 +79,5 @@ conversation:
 logbook:
 frontend:
 recorder:
-  purge_days: 1
+  purge_days: 2
 updater:
