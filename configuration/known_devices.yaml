@@ -1,0 +1,133 @@
+
+09aa01ac47150pdgfritzbox:
+  hide_if_away: false
+  mac: 18:B4:30:72:80:18
+  name: 09AA01AC47150PDG.fritz.box
+  picture: null
+  track: false
+
+sonoszpfritzbox:
+  hide_if_away: false
+  mac: 5C:AA:FD:A7:9C:1A
+  name: Sonos Hub
+  picture: null
+  track: true
+
+iphonevanalexfritzbox:
+  hide_if_away: false
+  mac: 34:C0:59:94:3D:67
+  name: Babyfoon
+  picture: null
+  track: true
+
+appletvfritzbox:
+  hide_if_away: false
+  mac: 9C:20:7B:B7:6F:24
+  name: Apple TV
+  picture: null
+  track: true
+
+fritzrepeater:
+  hide_if_away: false
+  mac: 3A:31:C4:CA:AA:F5
+  name: Fritzbox Repeater
+  picture: null
+  track: true
+
+pctigrisfritzbox:
+  hide_if_away: false
+  mac: D4:3D:7E:B1:3C:86
+  name: PC Alex
+  picture: null
+  track: true
+
+homeyfritzbox:
+  hide_if_away: false
+  mac: 6C:AD:F8:05:10:63
+  name: Homey Hub
+  picture: null
+  track: true
+
+iphonealexfritzbox:
+  hide_if_away: false
+  mac: 38:71:DE:AB:4C:3B
+  name: iPhone-Alex.fritz.box
+  picture: null
+  track: true
+
+fritzbox:
+  hide_if_away: false
+  mac: 34:31:C4:8E:71:68
+  name: Fritzbox Router
+  picture: null
+  track: true
+
+507e5dbd1fed:
+  hide_if_away: false
+  mac: 50:7E:5D:BD:1F:ED
+  name: 507e5dbd1fed
+  picture: null
+  track: false
+
+mynasfritzbox:
+  hide_if_away: false
+  mac: 00:11:32:15:B1:7A
+  name: Synology Nas
+  picture: null
+  track: true
+
+harmonyhubfritzbox:
+  hide_if_away: false
+  mac: 00:04:20:F8:06:31
+  name: Harmony Hub
+  picture: null
+  track: true
+
+philipshuefritzbox:
+  hide_if_away: false
+  mac: 00:17:88:27:80:B0
+  name: Philips Hue
+  picture: null
+  track: true
+
+f4b85e0504b2:
+  hide_if_away: false
+  mac: F4:B8:5E:05:04:B2
+  name: f4b85e0504b2
+  picture: null
+  track: true
+
+iphonevananitafritzbox:
+  hide_if_away: false
+  mac: 70:EC:E4:50:87:9D
+  name: iPhone-van-Anita.fritz.box
+  picture: null
+  track: true
+
+alexsmacbookprofritzbox:
+  hide_if_away: false
+  mac: 98:01:A7:B6:39:31
+  name: Alexs-MacBook-Pro.fritz.box
+  picture: null
+  track: true
+
+alexsipadfritzbox:
+  hide_if_away: false
+  mac: 14:99:E2:C6:02:8A
+  name: Alexs-iPad.fritz.box
+  picture: null
+  track: true
+
+iphone_iphonevanalex:
+  hide_if_away: false
+  mac: 38:71:DE:AB:4C:3B
+  name: iphone Alex
+  picture: null
+  track: true
+
+e0319e013233:
+  hide_if_away: false
+  mac: E0:31:9E:01:32:33
+  name: e0319e013233
+  picture: null
+  track: true
