@@ -1,0 +1,19 @@
+downstairs:
+  view: yes
+  entities:
+    - group.office
+
+office:
+  name: Kantoor
+  entities:
+    - group.office_devices
+
+office_devices:
+  name: Computer & Randapparatuur
+  entities:
+    - switch.greenwave_powernode_6_port_switch_5_0
+    - switch.greenwave_powernode_6_port_switch_5_0_2
+    - switch.greenwave_powernode_6_port_switch_5_0_3
+    - switch.greenwave_powernode_6_port_switch_5_0_4
+    - switch.greenwave_powernode_6_port_switch_5_0_5
+    - switch.greenwave_powernode_6_port_switch_5_0_6

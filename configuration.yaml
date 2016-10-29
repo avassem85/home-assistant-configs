@@ -10,6 +10,8 @@ homeassistant:
 frontend:
 http:
   api_password: !secret HTTP_PASSWORD
+  ssl_certificate: /etc/letsencrypt/live/avassem.duckdns.org/fullchain.pem
+  ssl_key: /etc/letsencrypt/live/avassem.duckdns.org/privkey.pem
 
 # Platforms
 light: !include configuration/platforms/lights.yaml
@@ -33,10 +35,13 @@ recorder:
 updater:
 
 # Groups
-group: !include_dir_named configuration/groups
+group: !include_dir_merge_named configuration/groups
 
 # Zones
 zone: !include configuration/zones/zones.yaml
+
+#Notifications
+notify: !include configuration/platforms/notify.yaml
 
 sensor:
   platform: rfxtrx

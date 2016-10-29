@@ -1,4 +1,0 @@
-view: yes
-entities:
-  - media_player.sonos_woonkamer
-icon: mdi:play-pause

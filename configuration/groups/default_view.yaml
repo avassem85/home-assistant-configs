@@ -1,7 +1,0 @@
-view: yes
-entities:
-  - updater.updater
-  - device_tracker.iphonealexfritzbox
-  - device_tracker.iphone_iphonevanalex
-  - device_tracker.iphonevananitafritzbox
-icon: mdi:home

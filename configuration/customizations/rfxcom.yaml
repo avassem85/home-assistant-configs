@@ -1,0 +1,5 @@
+sensor.0a520d00850100c5450159:
+  friendly_name: Sensor 1
+
+sensor.0a520d015b0100d23d0169:
+  friendly_name: Sensor 2

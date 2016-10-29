@@ -1,0 +1,21 @@
+default_view2:
+  view: yes
+  entities:
+    - device_tracker.iphonealexfritzbox
+    - device_tracker.iphone_iphonevanalex
+    - device_tracker.iphonevananitafritzbox
+    - group.family_info
+    - group.climate
+  icon: mdi:home
+
+family_info:
+  name: Family Info
+  entities:
+    - device_tracker.iphonealexfritzbox
+    - device_tracker.iphone_iphonevanalex
+    - device_tracker.iphonevananitafritzbox
+
+climate:
+  name: Climate
+  entities:
+    - climate.living_roomwoonkamer

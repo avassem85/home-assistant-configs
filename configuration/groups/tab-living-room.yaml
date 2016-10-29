@@ -1,0 +1,48 @@
+living_room:
+  view: yes
+  entities:
+    - climate.living_roomwoonkamer
+    - group.dining_room_lightning
+    - group.kitchen_lightning
+    - group.living_room_lightning
+    - group.living_room_tv_devices
+
+living_room_lightning:
+  name: Verlichting woonkamer
+  entities:
+    - group.living_room_hue_lightning
+    - switch.fibaro_system_fgwpe_wall_plug_switch_4_0
+
+living_room_hue_lightning:
+  name: Hue Lampen
+  entities:
+    - light.woonkamer_1
+    - light.woonkamer_2
+    - light.woonkamer_3
+
+dining_room_lightning:
+  name: Verlichting eetkamer
+  entities:
+    - group.dining_room_hue_lightning
+
+dining_room_hue_lightning:
+  name: Hue Lampen
+  entities:
+    - light.eetkamer_1
+    - light.eetkamer_2
+
+kitchen_lightning:
+  name: Verlichting keuken
+  entities:
+    - light.qubino_zmnhda2_flush_dimmer_level_13_0
+
+living_room_tv_devices:
+  name: Media
+  entities:
+    - media_player.sonos_woonkamer
+    - switch.greenwave_powernode_6_port_switch_6_0
+    - switch.greenwave_powernode_6_port_switch_6_0_2
+    - switch.greenwave_powernode_6_port_switch_6_0_3
+    - switch.greenwave_powernode_6_port_switch_6_0_4
+    - switch.greenwave_powernode_6_port_switch_6_0_5
+    - switch.greenwave_powernode_6_port_switch_6_0_6
