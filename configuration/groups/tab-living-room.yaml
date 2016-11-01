@@ -2,30 +2,30 @@ living_room:
   view: yes
   entities:
     - climate.living_roomwoonkamer
-    - group.dining_room_lightning
+    - group.dining_room_lighting
     - group.kitchen_lightning
-    - group.living_room_lightning
+    - group.living_room_lighting
     - group.living_room_tv_devices
 
-living_room_lightning:
+living_room_lighting:
   name: Verlichting woonkamer
   entities:
-    - group.living_room_hue_lightning
+    - group.living_room_hue_lighting
     - switch.fibaro_system_fgwpe_wall_plug_switch_4_0
 
-living_room_hue_lightning:
+living_room_hue_lighting:
   name: Hue Lampen
   entities:
     - light.woonkamer_1
     - light.woonkamer_2
     - light.woonkamer_3
 
-dining_room_lightning:
+dining_room_lighting:
   name: Verlichting eetkamer
   entities:
-    - group.dining_room_hue_lightning
+    - group.dining_room_hue_lighting
 
-dining_room_hue_lightning:
+dining_room_hue_lighting:
   name: Hue Lampen
   entities:
     - light.eetkamer_1

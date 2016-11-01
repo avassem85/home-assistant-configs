@@ -1,0 +1,13 @@
+- platform: haveibeenpwned
+  email:
+    - avassem@gmail.com
+    - alexa@infosupport.com
+    - alex.vanassem@infosupport.com
+    - alex@vanassem.eu
+    - anitabrueker@gmail.com
+
+- platform: speedtest
+  monitored_conditions:
+    - ping
+    - download
+    - upload

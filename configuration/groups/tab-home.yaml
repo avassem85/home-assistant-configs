@@ -14,8 +14,3 @@ family_info:
     - device_tracker.iphonealexfritzbox
     - device_tracker.iphone_iphonevanalex
     - device_tracker.iphonevananitafritzbox
-
-climate:
-  name: Climate
-  entities:
-    - climate.living_roomwoonkamer

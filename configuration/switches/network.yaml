@@ -1,0 +1,4 @@
+- platform: wake_on_lan
+  name: PC Alex
+  host: PC-TIGRIS
+  mac_address: "D4:3D:7E:B1:3C:86"

@@ -1,0 +1,42 @@
+network:
+  view: yes
+  entities:
+    - group.network_devices
+    - group.haveibeenpwned_alex
+    - group.haveibeenpwned_anita
+    - group.speedtest
+  icon: mdi:server-network
+
+network_devices:
+  name: Netwerk
+  entities:
+    - device_tracker.fritzbox
+    - device_tracker.fritzrepeater
+    - device_tracker.harmonyhubfritzbox
+    - device_tracker.homeyfritzbox
+    - device_tracker.mynasfritzbox
+    - device_tracker.pctigrisfritzbox
+    - device_tracker.philipshuefritzbox
+    - device_tracker.sonoszpfritzbox
+    - device_tracker.alexsmacbookprofritzbox
+    - device_tracker.appletvfritzbox
+
+haveibeenpwned_alex:
+  name: HaveIBeenPwned Alex
+  entities:
+    - sensor.breaches_avassemgmailcom
+    - sensor.breaches_alexvanassemeu
+    - sensor.breaches_alexainfosupportcom
+    - sensor.breaches_alexvanasseminfosupportcom
+
+haveibeenpwned_anita:
+  name: HaveIBeenPwned Anita
+  entities:
+    - sensor.breaches_anitabruekergmailcom
+
+speedtest:
+  name: Speedtest
+  entities:
+    - sensor.speedtest_ping
+    - sensor.speedtest_upload
+    - sensor.speedtest_download

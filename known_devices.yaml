@@ -48,13 +48,6 @@ homeyfritzbox:
   picture: null
   track: true
 
-iphonealexfritzbox:
-  hide_if_away: false
-  mac: 38:71:DE:AB:4C:3B
-  name: iPhone-Alex.fritz.box
-  picture: null
-  track: true
-
 fritzbox:
   hide_if_away: false
   mac: 34:31:C4:8E:71:68
@@ -104,13 +97,6 @@ iphonevananitafritzbox:
   picture: null
   track: true
 
-alexsmacbookprofritzbox:
-  hide_if_away: false
-  mac: 98:01:A7:B6:39:31
-  name: Alexs-MacBook-Pro.fritz.box
-  picture: null
-  track: true
-
 alexsipadfritzbox:
   hide_if_away: false
   mac: 14:99:E2:C6:02:8A
@@ -118,16 +104,86 @@ alexsipadfritzbox:
   picture: null
   track: true
 
-iphone_iphonevanalex:
+mobile_phone_alex:
   hide_if_away: false
   mac: 38:71:DE:AB:4C:3B
-  name: iphone Alex
-  picture: null
+  name: iPhone Alex
+  gravatar: avassem@gmail.com
   track: true
 
 e0319e013233:
   hide_if_away: false
   mac: E0:31:9E:01:32:33
   name: e0319e013233
+  picture: null
+  track: true
+
+alexsmacbookpro:
+  hide_if_away: false
+  mac: null
+  name: "MacBook Pro"
+  picture: null
+  track: true
+
+iphone_iphonevanalex:
+  hide_if_away: false
+  mac: null
+  name: iphone
+  picture: null
+  track: true
+
+iphonevananita:
+  hide_if_away: false
+  mac: null
+  name: iPhone van Anita
+  picture: null
+  track: true
+
+iphonealex:
+  hide_if_away: false
+  mac: null
+  name: iPhone Alex
+  picture: null
+  track: true
+
+alexsipad:
+  hide_if_away: false
+  mac: null
+  name: Alex's iPad
+  picture: null
+  track: true
+
+iphonevanalex:
+  hide_if_away: false
+  mac: null
+  name: iPhone van Alex
+  picture: null
+  track: true
+
+alexsmacbookprofritzbox:
+  hide_if_away: false
+  mac: 98:01:A7:B6:39:31
+  name: Alexs-MacBook-Pro.fritz.box
+  picture: null
+  track: true
+
+00066655dd35:
+  hide_if_away: false
+  mac: 00:06:66:55:DD:35
+  name: 00066655dd35
+  picture: null
+  track: true
+
+nl1n03240fritzbox:
+  hide_if_away: false
+  mac: F8:16:54:B3:34:1D
+  name: NL1N03240.fritz.box
+  picture: null
+  track: true
+
+0024be714333:
+  hide_if_away: false
+  mac: 00:24:BE:71:43:33
+  name: 0024be714333
   picture: null
   track: true

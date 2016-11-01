@@ -2,5 +2,13 @@
   hosts: 192.168.178.0/24
   home_interval: 300
 
-- platform: owntracks
-  max_gps_accuracy: 200
+# - platform: owntracks
+#   max_gps_accuracy: 200
+
+- platform: icloud
+  username: !secret ICLOUD_USERNAME
+  password: !secret ICLOUD_PASSWORD
+
+# - platform: fritz
+#   host: 192.168.178.1
+#   password: !secret FRITZBOX_PASSWORD

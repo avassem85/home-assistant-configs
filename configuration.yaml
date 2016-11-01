@@ -1,5 +1,5 @@
 homeassistant:
-  name: Thuis
+  name: Home
   latitude: !secret HOME_LATITUDE
   longitude: !secret HOME_LONGITUDE
   elevation: !secret HOME_ELAVATION
@@ -22,9 +22,9 @@ device_tracker: !include configuration/platforms/device_trackers.yaml
 # Components
 nest: !include configuration/components/nest.yaml
 zwave: !include configuration/components/zwave.yaml
-rfxtrx: !include configuration/components/rfxtrx.yaml
+rfxtrx: !include configuration/components/rfxcom.yaml
 mqtt: !include configuration/components/cloudmqtt.yaml
-logger:
+logger: !include configuration/components/logger.yaml
 history:
 discovery:
 sun:
@@ -40,13 +40,11 @@ group: !include_dir_merge_named configuration/groups
 # Zones
 zone: !include configuration/zones/zones.yaml
 
-#Notifications
+# Notifications
 notify: !include configuration/platforms/notify.yaml
 
-sensor:
-  platform: rfxtrx
-  automatic_add: True
+# Sensors
+sensor: !include_dir_merge_list configuration/sensors
 
-switch:
-  platform: rfxtrx
-  automatic_add: True
+# Switches
+switch: !include_dir_merge_list configuration/switches

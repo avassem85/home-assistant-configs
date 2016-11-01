@@ -1,0 +1,29 @@
+upstairs:
+  view: yes
+  entities:
+    - group.bedroom1
+    - group.bedroom2
+
+bedroom1:
+  name: Slaapkamer Alex & Anita
+  entities:
+    - group.master_bedroom_hue_lighting
+
+master_bedroom_hue_lighting:
+  name: Hue Lampen
+  entities:
+    - light.slaapkamer_1
+    - light.slaapkamer_2
+    - light.slaapkamer_3
+
+bedroom2:
+  name: Slaapkamer Elise
+  entities:
+    - group.bedroom2_hue_lighting
+
+bedroom2_hue_lighting:
+  name: Hue Lampen
+  entities:
+    - light.babykamer_1
+    - light.babykamer_2
+    - light.babykamer_3

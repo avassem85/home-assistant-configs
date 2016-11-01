@@ -1,0 +1,24 @@
+power:
+  view: yes
+  entities:
+    - group.current_usage
+  icon: mdi:flash
+
+current_usage:
+  name: Huidig verbruik
+  entities:
+    - sensor.everspring_an158_plugin_meter_appliance_module_power_8_8
+    - sensor.fibaro_system_fgwpe_wall_plug_power_4_4
+    - sensor.greenwave_powernode_6_port_power_5_8
+    - sensor.greenwave_powernode_6_port_power_5_8_2
+    - sensor.greenwave_powernode_6_port_power_5_8_3
+    - sensor.greenwave_powernode_6_port_power_5_8_4
+    - sensor.greenwave_powernode_6_port_power_5_8_5
+    - sensor.greenwave_powernode_6_port_power_5_8_6
+    - sensor.greenwave_powernode_6_port_power_6_8
+    - sensor.greenwave_powernode_6_port_power_6_8_2
+    - sensor.greenwave_powernode_6_port_power_6_8_3
+    - sensor.greenwave_powernode_6_port_power_6_8_4
+    - sensor.greenwave_powernode_6_port_power_6_8_5
+    - sensor.greenwave_powernode_6_port_power_6_8_6
+    - sensor.qubino_zmnhda2_flush_dimmer_power_13_8
