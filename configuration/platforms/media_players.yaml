@@ -1,5 +1,1 @@
 - platform: sonos
-
-- platform: braviatv
-  name: Sony TV
-  host: 192.168.178.45

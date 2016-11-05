@@ -1,0 +1,11 @@
+- platform: google_travel_time
+  name: Reistijd Alex naar werk
+  api_key: !secret GOOGLE_API_KEY
+  origin: device_tracker.iphonealex
+  destination: zone.Werk_Alex
+
+- platform: google_travel_time
+  name: Reistijd Alex naar huis
+  api_key: !secret GOOGLE_API_KEY
+  origin: device_tracker.iphonealex
+  destination: zone.Home

@@ -2,24 +2,53 @@ network:
   view: yes
   entities:
     - group.network_devices
+    - group.pc_devices
+    - group.automation_devices
+    - group.mobile_devices
+    - group.media_devices
     - group.haveibeenpwned_alex
     - group.haveibeenpwned_anita
     - group.speedtest
   icon: mdi:server-network
 
 network_devices:
-  name: Netwerk
+  name: Netwerk Apparatuur
   entities:
-    - device_tracker.fritzbox
-    - device_tracker.fritzrepeater
-    - device_tracker.harmonyhubfritzbox
-    - device_tracker.homeyfritzbox
-    - device_tracker.mynasfritzbox
-    - device_tracker.pctigrisfritzbox
-    - device_tracker.philipshuefritzbox
-    - device_tracker.sonoszpfritzbox
-    - device_tracker.alexsmacbookprofritzbox
-    - device_tracker.appletvfritzbox
+    - sensor.fritzbox
+    - sensor.fritzrepeater
+    - sensor.mynasfritzbox
+
+pc_devices:
+  name: Computers
+  entities:
+    - sensor.pctigrisfritzbox
+    - sensor.alexsmacbookprofritzbox
+
+automation_devices:
+  name: Home Automation Hubs
+  entities:
+    - sensor.harmonyhubfritzbox
+    - sensor.homeyfritzbox
+    - sensor.philipshuefritzbox
+    - sensor.googlenestfritzbox
+    - sensor.hellosensefritzbox
+
+media_devices:
+  name: Media Apparatuur
+  entities:
+    - sensor.sonytvfritzbox
+    - sensor.iptvxs4allfritzbox
+    - sensor.steamlinkfritzbox
+    - sensor.appletvfritzbox
+    - sensor.sonosfritzbox
+
+mobile_devices:
+  name: Telefoon and Tablets
+  entities:
+    - sensor.alexsipadfritzbox
+    - sensor.iphonevananitafritzbox
+    - sensor.iphonevanalexfritzbox
+    - sensor.iphonealexfritzbox
 
 haveibeenpwned_alex:
   name: HaveIBeenPwned Alex

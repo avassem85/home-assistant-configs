@@ -24,16 +24,23 @@ sensor.fibaro_system_fgwpe_wall_plug_power_4_4:
 light.qubino_zmnhda2_flush_dimmer_level_13_0:
   friendly_name: Keuken
 
+#FIBARO System FGS221 Double Relay Switch 2x1.5kW Switch
+switch.fibaro_system_fgs221_double_relay_switch_2x15kw_switch_11_0:
+  friendly_name: Woonkamer - Lampen
+
+#FIBARO System FGS221 Double Relay Switch 2x1.5kW Switch (ongebruikt)
+#switch.fibaro_system_fgs221_double_relay_switch_2x15kw_switch_11_2:
+
 # GreenWave PowerNode 6 - Woonkamer - Port 1
 
 sensor.greenwave_powernode_6_port_energy_6_0:
-  friendly_name: Woonkamer - PowerNode - DVD - kWh Meter
+  friendly_name: Woonkamer - PowerNode - Apple TV - kWh Meter
 
 sensor.greenwave_powernode_6_port_power_6_8:
-  friendly_name: Woonkamer - PowerNode - DVD - Verbruik
+  friendly_name: Woonkamer - PowerNode - Apple TV - Verbruik
 
 switch.greenwave_powernode_6_port_switch_6_0:
-  friendly_name: Woonkamer - PowerNode - DVD
+  friendly_name: Woonkamer - PowerNode - Apple TV
 
 # GreenWave PowerNode 6 - Woonkamer - Port 2
 
@@ -49,24 +56,24 @@ switch.greenwave_powernode_6_port_switch_6_0_2:
 # GreenWave PowerNode 6 - Woonkamer - Port 3
 
 sensor.greenwave_powernode_6_port_energy_6_0_3:
-  friendly_name: Woonkamer - PowerNode - Switch - kWh Meter
+  friendly_name: Woonkamer - PowerNode - IPTV - kWh Meter
 
 sensor.greenwave_powernode_6_port_power_6_8_3:
-  friendly_name: Woonkamer - PowerNode - Switch - Verbruik
+  friendly_name: Woonkamer - PowerNode - IPTV - Verbruik
 
 switch.greenwave_powernode_6_port_switch_6_0_3:
-  friendly_name: Woonkamer - PowerNode - Switch
+  friendly_name: Woonkamer - PowerNode - IPTV
 
 # GreenWave PowerNode 6 - Woonkamer - Port 4
 
 sensor.greenwave_powernode_6_port_energy_6_0_4:
-  friendly_name: Woonkamer - PowerNode - Apple TV - kWh Meter
+  friendly_name: Woonkamer - PowerNode - Sonos - kWh Meter
 
 sensor.greenwave_powernode_6_port_power_6_8_4:
-  friendly_name: Woonkamer - PowerNode - Apple TV - Verbruik
+  friendly_name: Woonkamer - PowerNode - Sonos - Verbruik
 
 switch.greenwave_powernode_6_port_switch_6_0_4:
-  friendly_name: Woonkamer - PowerNode - Apple TV
+  friendly_name: Woonkamer - PowerNode - Sonos
 
 # GreenWave PowerNode 6 - Woonkamer - Port 5
 
@@ -82,13 +89,13 @@ switch.greenwave_powernode_6_port_switch_6_0_5:
 # GreenWave PowerNode 6 - Woonkamer - Port 6
 
 sensor.greenwave_powernode_6_port_energy_6_0_6:
-  friendly_name: Woonkamer - PowerNode - Hue Bloom - kWh Meter
+  friendly_name: Woonkamer - PowerNode - Logitech Harmony - kWh Meter
 
 sensor.greenwave_powernode_6_port_power_6_8_6:
-  friendly_name: Woonkamer - PowerNode - Hue Bloom - Verbruik
+  friendly_name: Woonkamer - PowerNode - Logitech Harmony - Verbruik
 
 switch.greenwave_powernode_6_port_switch_6_0_6:
-  friendly_name: Woonkamer - PowerNode - Hue Bloom
+  friendly_name: Woonkamer - PowerNode - Logitech Harmony
 
 # GreenWave PowerNode 6 - Kantoor - Port 1
 

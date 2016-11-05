@@ -1,12 +1,4 @@
-
-09aa01ac47150pdgfritzbox:
-  hide_if_away: false
-  mac: 18:B4:30:72:80:18
-  name: 09AA01AC47150PDG.fritz.box
-  picture: null
-  track: false
-
-sonoszpfritzbox:
+sonosfritzbox:
   hide_if_away: false
   mac: 5C:AA:FD:A7:9C:1A
   name: Sonos Hub
@@ -55,13 +47,6 @@ fritzbox:
   picture: null
   track: true
 
-507e5dbd1fed:
-  hide_if_away: false
-  mac: 50:7E:5D:BD:1F:ED
-  name: 507e5dbd1fed
-  picture: null
-  track: false
-
 mynasfritzbox:
   hide_if_away: false
   mac: 00:11:32:15:B1:7A
@@ -83,38 +68,17 @@ philipshuefritzbox:
   picture: null
   track: true
 
-f4b85e0504b2:
-  hide_if_away: false
-  mac: F4:B8:5E:05:04:B2
-  name: f4b85e0504b2
-  picture: null
-  track: true
-
 iphonevananitafritzbox:
   hide_if_away: false
   mac: 70:EC:E4:50:87:9D
-  name: iPhone-van-Anita.fritz.box
+  name: iPhone Anita
   picture: null
   track: true
 
 alexsipadfritzbox:
   hide_if_away: false
   mac: 14:99:E2:C6:02:8A
-  name: Alexs-iPad.fritz.box
-  picture: null
-  track: true
-
-mobile_phone_alex:
-  hide_if_away: false
-  mac: 38:71:DE:AB:4C:3B
-  name: iPhone Alex
-  gravatar: avassem@gmail.com
-  track: true
-
-e0319e013233:
-  hide_if_away: false
-  mac: E0:31:9E:01:32:33
-  name: e0319e013233
+  name: iPad
   picture: null
   track: true
 
@@ -135,15 +99,15 @@ iphone_iphonevanalex:
 iphonevananita:
   hide_if_away: false
   mac: null
-  name: iPhone van Anita
-  picture: null
+  name: Anita
+  picture: https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/3/000/2cf/39d/1920a3d.jpg
   track: true
 
 iphonealex:
   hide_if_away: false
   mac: null
-  name: iPhone Alex
-  picture: null
+  name: Alex
+  gravatar: avassem@gmail.com
   track: true
 
 alexsipad:
@@ -163,7 +127,49 @@ iphonevanalex:
 alexsmacbookprofritzbox:
   hide_if_away: false
   mac: 98:01:A7:B6:39:31
-  name: Alexs-MacBook-Pro.fritz.box
+  name: MacBook Alex
+  picture: null
+  track: true
+
+iphonealexfritzbox:
+  hide_if_away: false
+  mac: 38:71:DE:AB:4C:3B
+  name: iPhone Alex
+  picture: null
+  track: true
+
+sonytvfritzbox:
+  hide_if_away: false
+  mac: 00:24:BE:71:43:33
+  name: Sony TV
+  picture: null
+  track: true
+
+googlenestfritzbox:
+  hide_if_away: false
+  mac: 18:B4:30:72:80:18
+  name: Google Nest
+  picture: null
+  track: true
+
+iptvxs4allfritzbox:
+  hide_if_away: false
+  mac: 50:7E:5D:BD:1F:ED
+  name: IPTV XS4ALL
+  picture: null
+  track: true
+
+steamlinkfritzbox:
+  hide_if_away: false
+  mac: E0:31:9E:01:32:33
+  name: Steamlink
+  picture: null
+  track: true
+
+hellosensefritzbox:
+  hide_if_away: false
+  mac: F4:B8:5E:05:04:B2
+  name: Hello Sense
   picture: null
   track: true
 
@@ -171,19 +177,5 @@ alexsmacbookprofritzbox:
   hide_if_away: false
   mac: 00:06:66:55:DD:35
   name: 00066655dd35
-  picture: null
-  track: true
-
-nl1n03240fritzbox:
-  hide_if_away: false
-  mac: F8:16:54:B3:34:1D
-  name: NL1N03240.fritz.box
-  picture: null
-  track: true
-
-0024be714333:
-  hide_if_away: false
-  mac: 00:24:BE:71:43:33
-  name: 0024be714333
   picture: null
   track: true

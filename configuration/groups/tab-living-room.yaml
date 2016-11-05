@@ -10,6 +10,7 @@ living_room:
 living_room_lighting:
   name: Verlichting woonkamer
   entities:
+    - switch.fibaro_system_fgs221_double_relay_switch_2x15kw_switch_11_0
     - group.living_room_hue_lighting
     - switch.fibaro_system_fgwpe_wall_plug_switch_4_0
 

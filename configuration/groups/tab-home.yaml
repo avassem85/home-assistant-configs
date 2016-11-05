@@ -1,16 +1,13 @@
 default_view2:
   view: yes
   entities:
-    - device_tracker.iphonealexfritzbox
-    - device_tracker.iphone_iphonevanalex
-    - device_tracker.iphonevananitafritzbox
-    - group.family_info
-    - group.climate
+    - device_tracker.iphonealex
+    - device_tracker.iphonevananita
+    - group.travel_times
   icon: mdi:home
 
-family_info:
-  name: Family Info
+travel_times:
+  name: Reistijden Alex
   entities:
-    - device_tracker.iphonealexfritzbox
-    - device_tracker.iphone_iphonevanalex
-    - device_tracker.iphonevananitafritzbox
+    - sensor.reistijd_alex_naar_huis
+    - sensor.reistijd_alex_naar_werk

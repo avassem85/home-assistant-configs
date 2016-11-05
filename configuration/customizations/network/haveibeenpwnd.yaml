@@ -1,0 +1,14 @@
+sensor.breaches_avassemgmailcom:
+  icon: mdi:security-network
+
+sensor.breaches_alexainfosupportcom:
+  icon: mdi:security-network
+
+sensor.breaches_alexvanassemeu:
+  icon: mdi:security-network
+
+sensor.breaches_alexvanasseminfosupportcom:
+  icon: mdi:security-network
+
+sensor.breaches_anitabruekergmailcom:
+  icon: mdi:security-network

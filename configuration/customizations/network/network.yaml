@@ -1,0 +1,59 @@
+sensor.appletvfritzbox:
+  icon: mdi:apple
+  friendly_name: Apple TV
+
+sensor.mynasfritzbox:
+  icon: mdi:harddisk
+  friendly_name: Synology NAS
+
+sensor.sonosfritzbox:
+  icon: mdi:surround-sound
+  friendly_name: Sonos Hub
+
+sensor.sonytvfritzbox:
+  icon: mdi:television
+  friendly_name: Sony TV
+
+sensor.iptvxs4allfritzbox:
+  icon: mdi:movie
+  friendly_name: IPTV xs4all
+
+sensor.steamlinkfritzbox:
+  icon: mdi:gamepad-variant
+  friendly_name: Steamlink
+
+sensor.googlenestfritzbox:
+  icon: mdi:thermometer
+  friendly_name: Google Nest
+
+sensor.hellosensefritzbox:
+  icon: mdi:bell-sleep
+  friendly_name: Hello Sense
+
+sensor.philipshuefritzbox:
+  icon: mdi:lightbulb
+  friendly_name: Philips Hue Hub
+
+sensor.harmonyhubfritzbox:
+  icon: mdi:remote
+  friendly_name: Harmony Hub
+
+sensor.fritzbox:
+  icon: mdi:router-wireless
+  friendly_name: Fritzbox Router
+
+sensor.fritzrepeater:
+  icon: mdi:router-wireless
+  friendly_name: Fritzbox Repeater
+
+sensor.homeyfritzbox:
+  icon: mdi:security-home
+  friendly_name: Homey Hub
+
+sensor.pctigrisfritzbox:
+  icon: mdi:desktop-tower
+  friendly_name: PC Alex
+
+sensor.alexsmacbookprofritzbox:
+  icon: mdi:laptop-mac
+  friendly_name: Macbook Alex

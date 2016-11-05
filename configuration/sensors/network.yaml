@@ -11,3 +11,44 @@
     - ping
     - download
     - upload
+
+- platform: template
+  sensors:
+    fritzbox:
+      value_template: '{% if is_state("device_tracker.fritzbox", "home") %}online{% else %}offline{% endif %}'
+    fritzrepeater:
+      value_template: '{% if is_state("device_tracker.fritzrepeater", "home") %}online{% else %}offline{% endif %}'
+    harmonyhubfritzbox:
+      value_template: '{% if is_state("device_tracker.harmonyhubfritzbox", "home") %}online{% else %}offline{% endif %}'
+    homeyfritzbox:
+      value_template: '{% if is_state("device_tracker.homeyfritzbox", "home") %}online{% else %}offline{% endif %}'
+    mynasfritzbox:
+      value_template: '{% if is_state("device_tracker.mynasfritzbox", "home") %}online{% else %}offline{% endif %}'
+    pctigrisfritzbox:
+      value_template: '{% if is_state("device_tracker.pctigrisfritzbox", "home") %}online{% else %}offline{% endif %}'
+    philipshuefritzbox:
+      value_template: '{% if is_state("device_tracker.philipshuefritzbox", "home") %}online{% else %}offline{% endif %}'
+    sonosfritzbox:
+      value_template: '{% if is_state("device_tracker.sonosfritzbox", "home") %}online{% else %}offline{% endif %}'
+    sonytvfritzbox:
+      value_template: '{% if is_state("device_tracker.sonytvfritzbox", "home") %}online{% else %}offline{% endif %}'
+    googlenestfritzbox:
+      value_template: '{% if is_state("device_tracker.googlenestfritzbox", "home") %}online{% else %}offline{% endif %}'
+    iptvxs4allfritzbox:
+      value_template: '{% if is_state("device_tracker.iptvxs4allfritzbox", "home") %}online{% else %}offline{% endif %}'
+    steamlinkfritzbox:
+      value_template: '{% if is_state("device_tracker.steamlinkfritzbox", "home") %}online{% else %}offline{% endif %}'
+    hellosensefritzbox:
+      value_template: '{% if is_state("device_tracker.hellosensefritzbox", "home") %}online{% else %}offline{% endif %}'
+    alexsmacbookprofritzbox:
+      value_template: '{% if is_state("device_tracker.alexsmacbookprofritzbox", "home") %}online{% else %}offline{% endif %}'
+    appletvfritzbox:
+      value_template: '{% if is_state("device_tracker.appletvfritzbox", "home") %}online{% else %}offline{% endif %}'
+    alexsipadfritzbox:
+      value_template: '{% if is_state("device_tracker.alexsipadfritzbox", "home") %}online{% else %}offline{% endif %}'
+    iphonevananitafritzbox:
+      value_template: '{% if is_state("device_tracker.iphonevananitafritzbox", "home") %}online{% else %}offline{% endif %}'
+    iphonevanalexfritzbox:
+      value_template: '{% if is_state("device_tracker.iphonevanalexfritzbox", "home") %}online{% else %}offline{% endif %}'
+    iphonealexfritzbox:
+      value_template: '{% if is_state("device_tracker.iphonealexfritzbox", "home") %}online{% else %}offline{% endif %}'
