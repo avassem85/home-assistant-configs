@@ -1,4 +1,5 @@
 downstairs:
+  name: Benedenverdieping
   view: yes
   entities:
     - group.office

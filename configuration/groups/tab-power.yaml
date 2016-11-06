@@ -1,4 +1,5 @@
 power:
+  name: Energieverbruik
   view: yes
   entities:
     - group.current_usage

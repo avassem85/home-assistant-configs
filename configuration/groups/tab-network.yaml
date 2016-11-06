@@ -1,4 +1,5 @@
 network:
+  name: Netwerk
   view: yes
   entities:
     - group.network_devices

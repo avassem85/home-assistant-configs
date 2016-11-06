@@ -1,4 +1,5 @@
 default_view2:
+  name: Thuis
   view: yes
   entities:
     - device_tracker.iphonealex

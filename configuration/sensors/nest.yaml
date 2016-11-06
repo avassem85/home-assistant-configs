@@ -1,5 +1,4 @@
-sensor:
-  platform: nest
+- platform: nest
   monitored_conditions:
     - 'temperature'
     - 'target'
@@ -13,3 +12,9 @@ sensor:
     - 'wind_direction'
     # - 'co_status' # Nest Protect only
     # - 'smoke_status' # Nest Protect only
+
+- platform: template
+  sensors:
+     nest_away_mode:
+       entity_id: climate.living_roomwoonkamer
+       value_template: "{{ is_state_attr('climate.living_roomwoonkamer', 'away_mode', 'on') }}"

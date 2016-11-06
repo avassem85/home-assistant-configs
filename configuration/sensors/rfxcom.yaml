@@ -1,18 +1,13 @@
 - platform: rfxtrx
   automatic_add: True
   devices:
-    0a520d045b0100cc370179:
-      name: Sensor 1
-      data_type:
-       - Humidity
-       - Temperature
     0a520d05990100d33b0169:
-       name: Sensor 2
+       name: Badkamer
        data_type:
         - Humidity
         - Temperature
     0a520d06850100d13e0169:
-      name: Sensor 3
+      name: Babykamer
       data_type:
        - Humidity
        - Temperature

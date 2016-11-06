@@ -1,4 +1,5 @@
 living_room:
+  name: Woonverdieping
   view: yes
   entities:
     - climate.living_roomwoonkamer

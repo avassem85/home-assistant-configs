@@ -1,4 +1,4 @@
-- alias: Turn on light when sun sets
+- alias: Turn on mood lights when sun sets
   hide_entity: False
   trigger:
     platform: sun
@@ -6,4 +6,13 @@
     offset: "-01:00:00"
   action:
     service: homeassistant.turn_on
+    entity_id: switch.fibaro_system_fgwpe_wall_plug_switch_4_0
+
+- alias: Turn off mood lights
+  hide_entity: False
+  trigger:
+    platform: time
+    after: '00:00:00'
+  action:
+    service: homeassistant.turn_off
     entity_id: switch.fibaro_system_fgwpe_wall_plug_switch_4_0
