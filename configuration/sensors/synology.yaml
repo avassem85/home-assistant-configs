@@ -1,0 +1,8 @@
+- platform: synologydsm
+  host: 192.168.178.39
+  username: !secret SYNOLOGY_USERNAME
+  password: !secret SYNOLOGY_PASSWORD
+  monitored_conditions:
+    - cpu_total_load
+    - memory_real_usage
+    - network_up

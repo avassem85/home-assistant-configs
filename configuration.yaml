@@ -10,8 +10,8 @@ homeassistant:
 frontend:
 http:
   api_password: !secret HTTP_PASSWORD
-  ssl_certificate: /etc/letsencrypt/live/avassem.duckdns.org/fullchain.pem
-  ssl_key: /etc/letsencrypt/live/avassem.duckdns.org/privkey.pem
+  ssl_certificate: !secret SSL_CERTIFICATE
+  ssl_key: !secret SSL_KEY
 
 # Platforms
 light: !include configuration/platforms/lights.yaml
@@ -25,6 +25,7 @@ zwave: !include configuration/components/zwave.yaml
 rfxtrx: !include configuration/components/rfxcom.yaml
 mqtt: !include configuration/components/cloudmqtt.yaml
 logger: !include configuration/components/logger.yaml
+ifttt: !include configuration/components/ifttt.yaml
 history:
 discovery:
 sun:
@@ -54,3 +55,8 @@ script: !include_dir_merge_list configuration/scripts
 
 # Automation
 automation: !include_dir_merge_list configuration/automation
+
+# Input
+#input_boolean: !include_dir_merge_list configuration/input/input_boolean
+#input_select: !include_dir_merge_list configuration/input/input_select
+input_slider: !include_dir_merge_named configuration/input/input_slider

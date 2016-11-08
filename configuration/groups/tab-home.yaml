@@ -2,6 +2,7 @@ default_view2:
   name: Thuis
   view: yes
   entities:
+    - sun.sun
     - device_tracker.iphonealex
     - device_tracker.iphonevananita
     - group.travel_times

@@ -2,7 +2,7 @@
 #   name: HTML5
 #   gcm_api_key: !secret HTML5_GCM_API_KEY
 #   gcm_sender_id: !secret HTML5_GCM_SENDER_ID
-#
-# - platform: pushbullet
-#   name: pushbullet
-#   api_key: !secret PUSHBULLET_API_KEY
+
+- platform: pushbullet
+  name: pushbullet
+  api_key: !secret PUSHBULLET_API_KEY

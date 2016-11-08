@@ -1,0 +1,22 @@
+weather:
+  view: yes
+  name: Weer
+  entities:
+    - group.raspberry
+    - group.home_assistant
+  icon: mdi:weather-cloudy
+
+darksky:
+  name: Dark Sky Weer
+  entities:
+    - sensor.cpu
+    - sensor.cpu_use
+    - sensor.ram_free
+    - sensor.disk_free_home
+    - sensor.last_boot
+    - sensor.since_last_boot_templated
+
+yr:
+  name: YR Weer
+  entities:
+    - sensor.badlogin

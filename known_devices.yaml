@@ -179,3 +179,17 @@ hellosensefritzbox:
   name: 00066655dd35
   picture: null
   track: true
+
+andrew:
+  hide_if_away: false
+  mac: null
+  name: andrew
+  picture: null
+  track: false
+
+raspberrypi3fritzbox:
+  hide_if_away: false
+  mac: B8:27:EB:7D:BA:EF
+  name: raspberrypi3.fritz.box
+  picture:
+  track: false

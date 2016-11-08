@@ -22,7 +22,13 @@ sensor.fibaro_system_fgwpe_wall_plug_power_4_4:
 
 # Qubino ZMNHDA2 Flush Dimmer - Keuken
 light.qubino_zmnhda2_flush_dimmer_level_13_0:
-  friendly_name: Keuken
+  friendly_name: Keuken - Lampen
+
+sensor.qubino_zmnhda2_flush_dimmer_energy_13_0:
+  friendly_name: Keuken - Lampen - kWh Meter
+
+sensor.qubino_zmnhda2_flush_dimmer_power_13_8:
+  friendly_name: Keuken - Lampen - Verbruik
 
 #FIBARO System FGS221 Double Relay Switch 2x1.5kW Switch
 switch.fibaro_system_fgs221_double_relay_switch_2x15kw_switch_11_0:

@@ -1,0 +1,21 @@
+ha_system:
+  view: yes
+  entities:
+    - group.raspberry
+    - group.home_assistant
+  icon: mdi:wrench
+
+raspberry:
+  name: Raspberry Pi
+  entities:
+    - sensor.cpu
+    - sensor.cpu_use
+    - sensor.ram_free
+    - sensor.disk_free_home
+    - sensor.last_boot
+    - sensor.since_last_boot_templated
+
+home_assistant:
+  name: Raspberry Pi
+  entities:
+    - sensor.badlogin
